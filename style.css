@@ -1,0 +1,12 @@
+body {
+    background-color: snow;
+}
+/* class for our dark theme */
+.darkTheme {
+    background-color: grey;
+    color: white;
+}
+
+.taskItem {
+    cursor: pointer;
+}

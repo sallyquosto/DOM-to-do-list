@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My To-Do List</title>
+</head>
+<body>
+    <!-- div to hold our toggle button -->
+    <div class="header">
+        <!-- button to toggle between light and dark theme -->
+        <button class="navBtn" onclick="toggleTheme()">Dark</button>
+    </div>
+    <h2>My To Do List</h2>
+    <!-- input to enter our tasks into -->
+    <input type="text" id="task" placeholder="Task">
+    <!-- button to add our task -->
+    <button onclick="addTask()">Add Task</button>
+    <!-- button to remove all tasks from the page -->
+    <button onclick="clearTasks()">Clear All</button>
+
+    <div id="listArea">
+        <!-- where all our tasks are going to go -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
